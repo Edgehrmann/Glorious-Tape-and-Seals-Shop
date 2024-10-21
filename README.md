@@ -9,7 +9,7 @@ Student ID: 001487879
 ## Name
 Name: Eddie Gehrmann
 
-Task C:
+# Task C:
 C. Customize the HTML user interface for your customer’s application. The user interface should include the shop name, the product names, and the names of the parts.
 
 filename: mainscreen.html
@@ -25,6 +25,17 @@ line 200 header to products changed to Thread Sealant Cases
 
 line 238-240 added footer with company name and copyright
 
+# Task D:
+D. Add an “About” page to the application to describe your chosen customer’s company to web viewers and include navigation to and from the “About” page and the main screen.
+
+filename: mainscreen.html
+line 168 added button to link to the about page
+
+filename: about.html
+lines 1-195 added about page with company information and history
+
+filename: MainScreenController.java
+lines 56-57 added method to navigate to the about page
 
 
 
