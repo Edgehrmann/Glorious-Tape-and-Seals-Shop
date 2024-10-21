@@ -37,5 +37,14 @@ lines 1-195 added about page with company information and history
 filename: MainScreenController.java
 lines 56-57 added method to navigate to the about page
 
+# Task E:
+E. Add a sample inventory appropriate for your chosen store to the application. You should have five parts and five products in your sample inventory and should not overwrite existing data in the database.
+
+filename: BootStrapData.java
+lines 27-40 inserted repository for inhouse parts
+
+lines 44-138 inserted new parts
+
+lines 141-151 inserted new products
 
 
