@@ -47,4 +47,17 @@ lines 44-138 inserted new parts
 
 lines 141-151 inserted new products
 
+# Task F:
+F. Add a “Buy Now” button to your product list. 
 
+filename: mainscreen.html
+line 233 added the new button
+
+Created new file: BuyProductController.java
+lines 1-44 coded created buy product method
+
+created new file: confirmbuysuccess.html
+lines 1-13 created new page for successful purchase
+
+created new file: confirmbuyfailure.html
+line 1-13 created new page for failed purchase
