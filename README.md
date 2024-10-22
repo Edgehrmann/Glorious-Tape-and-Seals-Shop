@@ -112,7 +112,35 @@ lines 50-54  validateLimits method as part of the save method
 # Task H:
 H. Add validation between or at the maximum and minimum fields.
 
+filename: ValidMinimum.java lines created
+lines 1-23 created
 
+filename: MinimumValidator.java lines created
+lines 1-31 created
+
+filename: Part.java
+line 19 added @ValidMinimum annotation
+
+filename: EnufPartsValidator.java
+modified lines 35-39 to validate minimum and maximum inventory
+
+filename: Product.java
+line 21 added @ValidEnufParts annotation
+
+filename: ValidMaximum.java lines created
+lines 1-25 created
+
+filename: MaximumValidator.java line created
+lines 1-31 created
+
+filename: Part.java
+line 21 added @ValidMaximum annotation
+
+filename: InhousePartForm.html
+lines 32-36 error message to be displayed
+
+filename: OutsourcedPartForm.html
+line 33-37 error message to be displayed
 
 
 
