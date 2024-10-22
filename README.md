@@ -142,5 +142,11 @@ lines 32-36 error message to be displayed
 filename: OutsourcedPartForm.html
 line 33-37 error message to be displayed
 
+# Task I:
+I. Add at least two unit tests for the maximum and minimum fields to the PartTest class in the test package.
+
+filename: PartTest.java
+Lines 160-194 added tests for min and max inventory
+
 
 
