@@ -61,3 +61,58 @@ lines 1-13 created new page for successful purchase
 
 created new file: confirmbuyfailure.html
 line 1-13 created new page for failed purchase
+
+# Task G:
+G. Modify the parts to track maximum and minimum inventory.
+
+filename: Part.java
+lines 33-37 added min and max inventory
+
+lines 51-52 & 60-61 added min and max inventory to constructor
+
+lines 122-128 added min and max inventory to getters and setters
+
+filename: InhousePart.java
+lines 18-19 added min and max inventory
+
+filename: OutsourcedPart.java
+lines 18-19 added min and max inventory
+
+Modify the sample inventory to include the maximum and minimum fields.
+filename: BootStrapData.java
+lines 52-53, 66-67, 90-91, 107-108, 124-125 added min and max inventory to new parts
+
+Add to the InhousePartForm and OutsourcedPartForm forms additional text inputs
+
+filename: InhousePartForm.html
+ines 24-28: added 2 fields for entering minimum & maximum inventory 
+
+filename: OutsourcedPartForm.html
+lines 25-29 added 2 fields for entering minimum & maximum inventory
+
+Rename the file the persistent storage is saved to.
+
+filename: application.properties
+line 6 changed location to jdbc:h2:file:~/threadseal-products-db
+
+Modify the code to enforce that the inventory is between or at the minimum and maximum value.
+
+filename: Part.java
+lines 117 -124 added method to check inventory levels
+
+filename: PartServiceImpl.java
+lines 57-61 validateLimits method as part of the save method
+
+filename: InhousePartServiceImpl.java
+lines 52-56 validateLimits method as part of the save method
+
+filename: OutsourcedPartServiceImpl.java
+lines 50-54  validateLimits method as part of the save method
+
+# Task H:
+H. Add validation between or at the maximum and minimum fields.
+
+
+
+
+

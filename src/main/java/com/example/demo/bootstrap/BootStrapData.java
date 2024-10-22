@@ -49,7 +49,7 @@ public class BootStrapData implements CommandLineRunner {
         ip1.setName("1/2 x 520 STD NAT");
         ip1.setPrice(1.85);
         ip1.setInv(10000);
-        ip1.setMinInv(1);
+        ip1.setMinInv(0);
         ip1.setMaxInv(30000);
         inhousePartRepository.save(ip1);
         InhousePart thePart=null;
@@ -63,7 +63,7 @@ public class BootStrapData implements CommandLineRunner {
         ip2.setName("1/2 x 260 STD NAT");
         ip2.setPrice(1.03);
         ip2.setInv(10000);
-        ip2.setMinInv(1);
+        ip2.setMinInv(0);
         ip2.setMaxInv(30000);
         inhousePartRepository.save(ip2);
         thePart=null;
@@ -87,8 +87,8 @@ public class BootStrapData implements CommandLineRunner {
         op1.setInv(20000);
         op1.setPrice(0.12);
         op1.setId(700);
-        op1.setMinInv(1);
-        op1.setMaxInv(20000);
+        op1.setMinInv(0);
+        op1.setMaxInv(30000);
         outsourcedPartRepository.save(op1);
         OutsourcedPart theOutPart=null;
         outsourcedParts=(List<OutsourcedPart>) outsourcedPartRepository.findAll();
@@ -104,8 +104,8 @@ public class BootStrapData implements CommandLineRunner {
         op2.setInv(20000);
         op2.setPrice(0.20);
         op2.setId(705);
-        op2.setMinInv(1);
-        op2.setMaxInv(20000);
+        op2.setMinInv(0);
+        op2.setMaxInv(30000);
         outsourcedPartRepository.save(op2);
         theOutPart=null;
         outsourcedParts=(List<OutsourcedPart>) outsourcedPartRepository.findAll();
@@ -121,8 +121,8 @@ public class BootStrapData implements CommandLineRunner {
         op5.setInv(300);
         op5.setPrice(50.00);
         op5.setId(710);
-        op5.setMinInv(1);
-        op5.setMaxInv(300);
+        op5.setMinInv(0);
+        op5.setMaxInv(30000);
         outsourcedPartRepository.save(op5);
         theOutPart=null;
         outsourcedParts=(List<OutsourcedPart>) outsourcedPartRepository.findAll();
